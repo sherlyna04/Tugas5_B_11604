@@ -78,7 +78,7 @@ if os.path.exists(model_path):
         st.title("Fashion MNIST Image Classifier")
         st.write("Unggah beberapa gambar item fashion (misalnya sepatu, tas, baju), dan model akan memprediksi kelas masing-masing.")
 
-        uploaded_files = st.file_uploader("Pilih gambar...", type["jpg","jpeg","png"], accept_multiple_files=True)
+        uploaded_files = st.file_uploader("Pilih gambar...", type["jpg", "jpeg", "png"], accept_multiple_files=True)
 
         with st.sidebar:
             st.write("## Navigator")
