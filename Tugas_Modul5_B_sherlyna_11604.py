@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 import os
 
-model_path = r'C:\Users\Sherlyna Alfelia\Documents\KULIAH\SMT 5\ML\Deep learning\Introduction to Deep Learning (Praktek)\best_model_tf.h5'
+model_path = r'best_model_tf.h5'
 
 if os.path.exists(model_path):
     try:
