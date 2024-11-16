@@ -56,8 +56,7 @@ from PIL import Image
 import os
 
 # Definisikan jalur model
-model_directory = r'C:\Users\Sherlyna Alfelia\Documents\KULIAH\SMT 5\ML\Deep learning\Tugas5_B_11604'
-model_path = os.path. join(model_directory, r'best_model.pkl')
+model_path = r'best_model.pkl'
 
 # Load the model
 if os.path.exists(model_path):
